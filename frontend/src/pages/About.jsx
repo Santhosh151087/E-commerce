@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
-import NewsLetterBox from '../components/NewsLetterBox'
+import NewsletterBox from '../components/NewsletterBox'
 const About = () => {
   return (
     <div>
@@ -37,7 +37,7 @@ const About = () => {
               <p className='text-gray-600'>At Delulu, customer satisfaction is at the heart of everything we do. We are committed to providing friendly support, quick responses, and reliable assistance to ensure every customer enjoys a smooth and satisfying shopping experience.</p>
           </div>
       </div>
-      <NewsLetterBox/>
+      <NewsletterBox/>
     </div>
   )
 }
