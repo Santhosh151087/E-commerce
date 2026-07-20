@@ -32,10 +32,10 @@ try {
   formData.append("price" , price)
   formData.append("category" , category)
   formData.append("subCategory" , subCategory)
-  formData.append("bestSeller" , bestSeller)
+  formData.append("bestseller", bestSeller ? "true" : "false")
   formData.append("sizes" , JSON.stringify(sizes))
   image1 && formData.append("image1", image1)
-  image2 && formData.append("image12", image2)
+  image2 && formData.append("image2", image2)
   image3 && formData.append("image3", image3)
   image4 && formData.append("image4", image4)
   const response = await axios.post(backendUrl+"/api/product/add", formData ,{
